@@ -204,57 +204,125 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "onservice",
-    "inrealm",
+    "9gag",         
+    "channels",
+    "gnuplot",
+    "info",
+    "lyrics",
+    "Pv",
+    "sms", 
+    "txt2img",
+    "add_bot",
+    "Chat",
+    "google_image",
     "ingroup",
-    "inpm",
-    "banhammer",
-    "stats",
-    "Boobs",
-    "Feedback",
-    "plugins",
-    "antifosh",
-    "antilink",
-    "lock_english",
-    "gps",
-    "auto_leave",
-    "cpu",
-    "calc",
-    "bin",
-    "block",
-    "tagall",
-    "text",
-    "welcome",
-    "webshot",
-    "google",
-    "sms",
-    "anti_spam",
-    "owners",
-    "arabic_lock",
-    "set",
-    "get",
-    "broadcast",
-    "download_media",
-    "invite",
+    "magic8ball",
+    "qr",
+    "spammer",
+    "version",
     "all",
-    "leave_ban"
+    "chuck_norris",
+    "google",
+    "inpm",
+    "map",
+    "quotes",
+    "stats",
+    "Version",
+    "antilink",
+    "danbooru",
+    "inrealm",
+    "media_handler",
+    "Quran",
+    "steam",
+    "vote",
+    "anti_spam",
+    "dictionary",
+    "gps",
+    "invite",
+    "media",
+    "rae",
+    "weather",
+    "anti sticker",
+    "domaintools",
+    "isup",
+    "remind",
+    "SUDO",
+    "web_shot",
+    "antitag",
+    "download_media",
+    "isX",
+    "meme",
+    "tagall",
+    "arabic_lock",
+    "echo",
+    "hackernews",
+    "join",
+    "minecraft",
+    "roll",
+    "tex",
+    "welcome",
+    "auto_leave",
+    "eur",
+    "hello",
+    "joke",
+    "moderation",
+    "rss",
+    "wiki",
+    "banhammer",
+    "exchange",
+    "help",
+    "leave_ban",
+    "mod",
+    "S2A",
+    "time",
+    "xkcd",
+    "block",
+    "expand",
+    "link__lock",
+    "onservice",
+    "torrent_search",
+    "yoda",
+    "boobs",
+    "face",
+    "id",
+    "Link Pv",
+    "owners",
+    "search_youtube",
+    "translate",
+    "youtube",
+    "broadcast",
+    "Feedback",
+    "pili",
+    "service_entergroup",
+    "trivia",
+    "bugzilla",
+    "fosh",
+    "images",
+    "location",
+    "plugins",
+    "service_template",
+    "tweet",
+    "calc",
+    "get",
+    "imdb",
+    "lock_join",
+    "set",
+    "twitter",
+    "giphy",
+    "pokedex",
+    "share_contact",
+    "danestaniha",
+    "jomlak",
+    "admin"
     },
-    sudo_users = {118682430},--Sudo users
+    sudo_users = {122774063},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Creed bot 2.3
+    about_text = [[SBSS bot 2.3
     
-     Hello my Good friends 😀🖐🏻
-     
-    ‼️ this bot is made by : @creed_is_dead
-   〰〰〰〰〰〰〰〰
-   🚩 Our admins are : 
-   🔰 @sorblack_creed
-   🔰 @amircc_creed
-   🔰 @aria_creed
-   🔰 @alireza_mah_creed 
-   〰〰〰〰〰〰〰〰
+    TEST
+
   ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
    تمامی درخواست ها و همه ی انتقادات و حرفاتونو با دستور زیر بفرستین به ما
    !feedback (your ideas and messages)
@@ -440,9 +508,7 @@ will tag users©
 
 〰〰〰〰〰〰〰〰〰
 🔜 more plugins 
-⚠️ We are Creeds ... ⚠️
-our channel : @creedantispam_channel🔋
-کانال ما 
+
 You Can user both "!" & "/" for them🎧
 میتوانید از دو شکلک !  و / برای دادن دستورات استفاده کنید
 ]]
